@@ -1,6 +1,7 @@
 // Vamos a usar el paquete path para que las rutas sean válidas tanto en windows como en linux
 let path = require("path");
 let HtmlWebPackPlugin = require("html-webpack-plugin");
+let entryPath = path.join(__dirname, "src");
 let outPath = path.join(__dirname, "dist");
 let webpack = require('webpack');
 
